@@ -1,0 +1,11 @@
+{
+  "name": "MedVault",
+  "short_name": "MedVault",
+  "description": "Your personal medicine reference library",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EAE5D9",
+  "theme_color": "#EAE5D9",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

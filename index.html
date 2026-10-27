@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MedVault: personal medicine library</title>
+<meta name="description" content="A private medicine reference notebook stored on your device.">
+<meta name="theme-color" content="#EAE5D9">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <button class="brand" type="button" data-v="home" aria-label="MedVault home">MedVault</button>
+  <button id="themeBtn" class="btn sm" type="button" aria-label="Toggle dark mode">Theme</button>
+</header>
+<main id="main" tabindex="-1"><noscript>MedVault needs JavaScript to run.</noscript></main>
+<footer class="disclaimer">
+  <strong>Reference only.</strong> MedVault stores text that you type or import. It does not verify medical facts, recommend medicines or set doses, and does not replace a doctor or pharmacist. Always check the official package leaflet.
+</footer>
+<nav class="nav" aria-label="Main">
+  <button type="button" data-v="home">Library</button>
+  <button type="button" data-v="form" class="go">Add medicine</button>
+  <button type="button" data-v="tools">Backup</button>
+</nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
